@@ -26,7 +26,7 @@ OBS-Studio -> Settings -> Output -> Recording:
 
  - set **Container Format** to *mpegts*
 
-![avatar](imgs/obs-studio-recording-setting.png)
+![demo1](https://github.com/fochive00/Steve/blob/main/imgs/obs-studio-recording-setting.png)
 ***
 
 ### Launch Minecraft
@@ -45,7 +45,7 @@ After doing this, you have about 5 seconds to switch to the game window.
 ### TODO
  - Perfect the Documentation
  - Windows support and MacOS support, even HarmonyOS support
- - play
+ - Play
 
 
 
