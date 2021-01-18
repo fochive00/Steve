@@ -1,0 +1,4 @@
+modules/input/__pycache__/
+modules/control/__pycache__/
+modules/brains/__pycache__/
+test/
