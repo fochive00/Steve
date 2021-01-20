@@ -20,13 +20,14 @@ $ pip install libevdev opencv-python
 ***
 
 ### Setup OBS-Studio
+Firtst, 
 OBS-Studio -> Settings -> Output -> Recording:
 
  - set **File path or URL** to *udp://localhost:2000*
 
  - set **Container Format** to *mpegts*
 
-![demo1](https://github.com/fochive00/Steve/blob/main/imgs/obs-studio-recording-setting.png)
+![demo1](https://github.com/fochive00/Steve/raw/main/imgs/obs-studio-recording-setting.png)
 ***
 
 ### Launch Minecraft
@@ -43,8 +44,8 @@ After doing this, you have about 5 seconds to switch to the game window.
 ***
 
 ### TODO
+ - Add more comments
  - Perfect the Documentation
- - Windows support and MacOS support, even HarmonyOS support
  - Play
 
 

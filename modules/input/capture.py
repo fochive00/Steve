@@ -1,9 +1,9 @@
 import numpy as np
 import cv2 as cv
 
-class Eyes(object):
+class Capture(object):
     def __init__(self):
-        self.__url__ = 'udp://localhost:9999'
+        self.__url__ = 'udp://localhost:2000'
         # TODO exception handle
         self.__cap__ = cv.VideoCapture(self.__url__)
         print('start listen to ' + self.__url__)

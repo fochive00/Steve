@@ -5,7 +5,7 @@ def join(v1, v2):
 
     return res
 
-def createMap():
+def createControlMap() -> np.ndarray:
     v = np.array([0, 2, 3, -2, -3])
     direction = join(v, v)
 
