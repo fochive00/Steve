@@ -44,7 +44,7 @@ $ pip install opencv-python
  - Set the **Container Format** to *mpegts*
  - Reduce the  **Video Bitrate** to 500~1000Kbps for better performance.
 
-![demo1](https://github.com/fochive00/Steve/blob/main/imgs/obs-studio-recording-setting.png)
+![demo1](https://github.com/fochive00/Steve/blob/main/imgs/obs-studio-recording-setting.png?raw=true)
 
 #### Settings -> Video:
 
