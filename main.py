@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 import time
 import platform
-from modules.input.capture import Capture
+from modules.capture.capture import Capture
 
 if platform.system() == 'Windows':
     from modules.control.windll_control import Control
