@@ -1,10 +1,10 @@
 # Getting start
 
- - Clone repository
- - Install dependencies
- - Setup OBS-Studio
- - Launch Minecraft
- - Run Script
+ - [Clone repository](#clone-repository)
+ - [Install dependencies](#install-dependencies)
+ - [Launch Minecraft](#launch-minecraft)
+ - [Setup OBS Studio](#setup-obs-studio)
+ - [Run Script](#run-script)
 ***
 
 ### Clone repository
@@ -30,7 +30,10 @@ $ pip install opencv-python
  - Start a new world and pause(press ESC).
 ***
 
-### Setup OBS-Studio
+### Setup OBS Studio
+
+[Get OBS-Studio](https://obsproject.com/)
+
 #### Settings -> Output:
 
  - Set the **Output Mode** to *Advanced*
