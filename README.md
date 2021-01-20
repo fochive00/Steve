@@ -6,6 +6,7 @@
  - Launch Minecraft
  - Run Script
 ***
+
 ### Clone repository
 ```sh
 $ git clone https://github.com/fochive00/Steve
@@ -17,22 +18,43 @@ In Linux:
 ```sh
 $ pip install libevdev opencv-python
 ```
-***
 
-### Setup OBS-Studio
-Firtst, 
-OBS-Studio -> Settings -> Output -> Recording:
-
- - set **File path or URL** to *udp://localhost:2000*
-
- - set **Container Format** to *mpegts*
-
-![demo1](https://github.com/fochive00/Steve/raw/main/imgs/obs-studio-recording-setting.png)
+In Windows:
+```cmd
+$ pip install opencv-python
+```
 ***
 
 ### Launch Minecraft
-Start a new world and pause(press ESC). Wait until the script runing, then back to game.
+ - Launch Minecraft
+ - Start a new world and pause(press ESC).
+***
 
+### Setup OBS-Studio
+#### Settings -> Output:
+
+ - Set the **Output Mode** to *Advanced*
+
+#### Settings -> Output -> Recording:
+
+ - Set the **File path or URL** to *udp://localhost:2000*
+ - Set the **Container Format** to *mpegts*
+ - Reduce the  **Video Bitrate** to 500~1000Kbps for better performance.
+
+![demo1](https://github.com/fochive00/Steve/blob/main/imgs/obs-studio-recording-setting.png)
+
+#### Settings -> Video:
+
+ - Set the **Integer FPS Value** to *20* or lower.
+ - Set the **Output(Scaled) Resolution** to a quiet small one.
+
+#### Apply settings and get back to main window:
+ - Add a new **screen capture** sourse and select the Minecraft window.
+ - Start Recording.
+<font color=#eeee00>(Note that there is not 'Start Streaming')
+</font>
+
+***
 ### Run script
 In project directory:
 ```sh

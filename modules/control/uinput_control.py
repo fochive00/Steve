@@ -60,7 +60,6 @@ class Control(object):
         self.mouse_move_thread = threading.Thread(target=self.mouse_worker)
         self.mouse_move_thread.start()
 
-
         self.thread = threading.Thread(target=self.keybd_worker)
         self.thread.start()
 
@@ -71,7 +70,7 @@ class Control(object):
         while True:
             control_code = self.queue.get()
             event_arr = self.control_map[control_code]
-
+            
             mouse_move_events, button_events = self.array2events(event_arr)
             self.uinput.send_events(button_events)
 
@@ -86,6 +85,7 @@ class Control(object):
             self.uinput.send_events(self.mouse_move_events)
             self.mouse_move_thread_lock.release()
             time.sleep(0.005)
+
     def getControlMapRange(self) -> int:
         return self.control_map.shape[0]
 
