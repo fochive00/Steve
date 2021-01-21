@@ -9,7 +9,7 @@
 
 ### Clone repository
 ```sh
-$ git clone https://github.com/fochive00/Steve
+$ git clone https://github.com/fochive00/Steve.git
 ```
 ***
 
