@@ -16,12 +16,12 @@ $ git clone https://github.com/fochive00/Steve.git
 ### Install dependencies
 In Linux:
 ```sh
-$ pip install libevdev opencv-python
+$ pip install numpy opencv-python libevdev 
 ```
 
 In Windows:
 ```cmd
-$ pip install opencv-python
+$ pip install numpy opencv-python
 ```
 ***
 
