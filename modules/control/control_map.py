@@ -50,3 +50,4 @@ def createControlMap() -> np.ndarray:
     res = join(res, wasd)
 
     return res
+
